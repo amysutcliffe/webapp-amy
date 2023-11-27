@@ -7,14 +7,12 @@ import { Card } from "./Card/card";
 import { Hooks } from "./Card/Hooks/Hooks";
 import "./Card/card.css";
 import { Inputfeld } from "./input feld/inputfeld";
-import NavBar from "./NavBar";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-    <NavBar/>
       <Hooks />
       <Inputfeld />
       <Hello name={"World"} question={"Wie gehts?"} />
