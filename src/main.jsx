@@ -8,6 +8,9 @@ import NavBar from "./NavBar.jsx";
 import { Card } from "./Card/card.jsx";
 import { Hooks } from "./Card/Hooks/Hooks.jsx";
 import "./styles.css";
+import Vacation from "./Vacation.jsx";
+import wonderlandPic from "./Images/Bronx.jpg";
+import offenbachPic from "./Images/Wonderland.png";
 
 const router = createBrowserRouter([
   {
@@ -31,6 +34,10 @@ const router = createBrowserRouter([
             logo={<img src={reactLogo} />}
           />
         ),
+      },
+      {
+        path: "/vacation",
+        element: <Vacation />,
       },
     ],
   },

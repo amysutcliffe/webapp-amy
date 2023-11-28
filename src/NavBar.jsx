@@ -17,6 +17,9 @@ export function NavBar() {
           <li>
             <Link to="/hooks">Hooks</Link>
           </li>
+          <li>
+            <Link to="/vacation">Vacation</Link>
+          </li>
         </ul>
       </nav>
       <Outlet />
