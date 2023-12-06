@@ -7,7 +7,7 @@ export function Vacation() {
   return (
     <>
       {" "}
-      <h1>Choose your dream vacation</h1>{" "}
+      <h2>Choose your dream vacation</h2>{" "}
       <div className="winter">
         <button onClick={() => setVacationType("winter")}>
           Winter Wonderland
@@ -24,7 +24,6 @@ export function Vacation() {
 
         {vacationType === "offenbach" && (
           <div>
-            {" "}
             <img src={offenbachPic} alt="Offenbach" />
           </div>
         )}

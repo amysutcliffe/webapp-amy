@@ -9,8 +9,7 @@ import { Card } from "./Card/card.jsx";
 import { Hooks } from "./Card/Hooks/Hooks.jsx";
 import "./styles.css";
 import Vacation from "./Vacation.jsx";
-import wonderlandPic from "./Images/Bronx.jpg";
-import offenbachPic from "./Images/Wonderland.png";
+import Conversion from "./Conversion.jsx";
 
 const router = createBrowserRouter([
   {
@@ -38,6 +37,10 @@ const router = createBrowserRouter([
       {
         path: "/vacation",
         element: <Vacation />,
+      },
+      {
+        path: "/conversion",
+        element: <Conversion />,
       },
     ],
   },

@@ -20,6 +20,9 @@ export function NavBar() {
           <li>
             <Link to="/vacation">Vacation</Link>
           </li>
+          <lin>
+            <Link to="/conversion">Conversion</Link>
+          </lin>
         </ul>
       </nav>
       <Outlet />
